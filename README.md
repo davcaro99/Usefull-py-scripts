@@ -4,7 +4,7 @@ A collection of Python scripts designed to simplify common tasks related to **co
 
 ## 📜 Scripts Overview
 
-### 1️⃣ Convert DMS to DD (`convertcoordinates.py.py`)
+### 1️⃣ Convert DMS to DD (`convertcoordinates.py`)
 - Converts **DMS coordinates** (Degrees, Minutes, Seconds) in a CSV file to **Decimal Degrees (DD)**.
 - Input: CSV file with `Latitude` and `Longitude` columns.
 - Output: CSV file with converted coordinates in DD format.
@@ -15,7 +15,7 @@ A collection of Python scripts designed to simplify common tasks related to **co
 - Input: Folder containing PDFs.
 - Output: CSV file with extracted metadata.
 
-### 3️⃣ Extract Georeferenced Data from PDFs (`pdfcoordpoints.py.py`)
+### 3️⃣ Extract Georeferenced Data from PDFs (`pdfcoordpoints.py`)
 - Parses a **PDF list of geological (or georeferenced) localities**, extracting relevant data.
 - Extracts **coordinates, names, measurements, comments, and images**.
 - Output: CSV file that can be converted into a **KMZ file** for mapping.
